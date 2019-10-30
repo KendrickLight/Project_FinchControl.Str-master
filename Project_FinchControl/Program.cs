@@ -177,7 +177,7 @@ namespace Project_FinchControl
 
              while(command != FinchCommand.DONE) 
             {
-                Console.Write("enter command: ");
+                Console.Write("enter command:");
                 userResponse = Console.ReadLine().ToUpper();
                 Enum.TryParse(userResponse, out command);
 
